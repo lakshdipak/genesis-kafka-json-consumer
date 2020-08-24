@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.demo.kafka.json.consumer</groupId>
-	<artifactId>genesis-kafka-json-consumer</artifactId>
+	<artifactId>kafka-json-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>kafka-json-consumer</name>
 	<description>Spring Boot Kafka Json Consumer</description>
