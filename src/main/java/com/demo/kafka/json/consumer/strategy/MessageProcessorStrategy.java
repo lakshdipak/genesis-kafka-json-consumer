@@ -1,4 +1,4 @@
-package com.citi.genesis.api.consumer.strategy;
+package com.demo.kafka.json.consumer.strategy;
 
 public abstract class MessageProcessorStrategy {
 

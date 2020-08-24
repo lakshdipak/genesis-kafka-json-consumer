@@ -1,6 +1,6 @@
-package com.citi.genesis.api.consumer.config;
+package com.demo.kafka.json.consumer.config;
 
-import com.citi.genesis.api.consumer.factory.MessageProcessorsFactory;
+import com.demo.kafka.json.consumer.factory.MessageProcessorsFactory;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ServiceLocatorFactoryBean;

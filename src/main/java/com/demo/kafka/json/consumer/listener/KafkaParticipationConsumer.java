@@ -1,8 +1,8 @@
-package com.citi.genesis.api.consumer.listener;
+package com.demo.kafka.json.consumer.listener;
 
 
-import com.citi.genesis.api.consumer.factory.MessageProcessorsFactory;
-import com.citi.genesis.api.dto.sample.MessageValue;
+import com.demo.kafka.json.consumer.dto.MessageValue;
+import com.demo.kafka.json.consumer.factory.MessageProcessorsFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.beans.factory.annotation.Autowired;

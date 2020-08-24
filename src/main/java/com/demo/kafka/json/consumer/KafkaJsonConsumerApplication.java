@@ -1,4 +1,4 @@
-package com.citi.genesis.api.consumer;
+package com.demo.kafka.json.consumer;
 
 
 import org.springframework.boot.SpringApplication;
@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-public class GenesisKafkaJsonConsumerApplication {
+public class KafkaJsonConsumerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GenesisKafkaJsonConsumerApplication.class, args);
+		SpringApplication.run(KafkaJsonConsumerApplication.class, args);
 	}
 
 

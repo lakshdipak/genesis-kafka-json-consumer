@@ -10,8 +10,8 @@ spring:
     bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
 
     consumer:
-      topics: genesis-test-topic-json
-      group-id: genesis-json-consumer-group-1
+      topics: test-topic-json
+      group-id: json-consumer-group-1
       auto-offset-reset: earliest
       enable-auto-commit: false
       key-deserializer: "org.apache.kafka.common.serialization.StringDeserializer"
@@ -22,4 +22,4 @@ spring:
       spring:
         json:
           trusted:
-            packages:  com.citi.genesis.api.dto.sample
+            packages:  com.demo.kafka.json.consumer.dto

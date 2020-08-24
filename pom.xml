@@ -8,10 +8,10 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.citi.genesis.api.consumer</groupId>
+	<groupId>com.demo.kafka.json.consumer</groupId>
 	<artifactId>genesis-kafka-json-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>genesis-kafka-json-consumer</name>
+	<name>kafka-json-consumer</name>
 	<description>Spring Boot Kafka Json Consumer</description>
 
 	<properties>
@@ -65,12 +65,6 @@
 				<groupId>org.projectlombok</groupId>
 				<artifactId>lombok</artifactId>
 				<version>1.18.0</version>
-			</dependency>
-
-			<dependency>
-				<groupId>com.citi.genesis.api.dto</groupId>
-				<artifactId>genesis-dto</artifactId>
-				<version>${project.version}</version>
 			</dependency>
 
 		</dependencies>

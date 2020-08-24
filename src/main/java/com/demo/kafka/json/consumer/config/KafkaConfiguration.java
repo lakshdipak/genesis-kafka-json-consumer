@@ -1,9 +1,8 @@
-package com.citi.genesis.api.consumer.config;
+package com.demo.kafka.json.consumer.config;
 
 
-import com.citi.genesis.api.dto.sample.MessageValue;
-import com.citi.genesis.api.consumer.listener.DeserializationErrorSkipHandler;
-import org.apache.kafka.clients.consumer.ConsumerConfig;
+import com.demo.kafka.json.consumer.dto.MessageValue;
+import com.demo.kafka.json.consumer.listener.DeserializationErrorSkipHandler;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -11,9 +10,6 @@ import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
-import org.springframework.kafka.support.serializer.ErrorHandlingDeserializer;
-import org.springframework.kafka.support.serializer.ErrorHandlingDeserializer2;
-import org.springframework.kafka.support.serializer.JsonDeserializer;
 
 import java.util.HashMap;
 import java.util.Map;

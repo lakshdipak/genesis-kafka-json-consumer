@@ -1,4 +1,4 @@
-package com.citi.genesis.api.consumer.listener;
+package com.demo.kafka.json.consumer.listener;
 
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecord;

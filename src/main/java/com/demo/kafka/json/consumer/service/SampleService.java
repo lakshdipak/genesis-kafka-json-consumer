@@ -1,7 +1,7 @@
-package com.citi.genesis.api.consumer.service;
+package com.demo.kafka.json.consumer.service;
 
 
-import com.citi.genesis.api.consumer.strategy.MessageProcessorStrategy;
+import com.demo.kafka.json.consumer.strategy.MessageProcessorStrategy;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
