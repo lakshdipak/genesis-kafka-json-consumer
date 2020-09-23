@@ -2,11 +2,12 @@ package com.demo.kafka.json.consumer;
 
 
 import org.junit.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import org.junit.runner.RunWith;
-import org.springframework.test.context.junit5.SpringRunner;
+import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringRunner.class)
+@SpringBootTest
 class KafkaJsonConsumerApplicationTest {
 
 	@Test

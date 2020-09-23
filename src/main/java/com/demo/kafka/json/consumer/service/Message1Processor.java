@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
 
 @Service("Message1")
 @Slf4j
-public class SampleProcessor extends MessageProcessorStrategy {
+public class Message1Processor extends MessageProcessorStrategy {
 
 
   @Autowired
-  public SampleProcessor() {
+  public Message1Processor() {
 
   }
 

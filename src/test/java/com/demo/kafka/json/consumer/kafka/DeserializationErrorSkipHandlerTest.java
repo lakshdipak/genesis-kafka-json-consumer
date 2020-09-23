@@ -1,5 +1,6 @@
-package com.adidas.estudio.kafka;
+package com.demo.kafka.json.consumer.kafka;
 
+import com.demo.kafka.json.consumer.listener.DeserializationErrorSkipHandler;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.TopicPartition;

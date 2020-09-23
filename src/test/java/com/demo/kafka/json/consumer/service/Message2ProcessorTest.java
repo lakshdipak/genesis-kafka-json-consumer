@@ -7,12 +7,10 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)
-public class Message1ProcessorTest {
+public class Message2ProcessorTest {
 
 
 
@@ -20,14 +18,15 @@ public class Message1ProcessorTest {
   private EventPayloadMapper eventPayloadMapper;
 */
   @InjectMocks
-  private Message1Processor message1Processor;
+  private Message2Processor message2Processor;
 
   @Test
   public void testProcessMessage() {
      final String keyPrefix = "TEST_EVENT:";
     final MessageValue messageValue = new MessageValue();
-    messageValue.setMessageType(MessageType.Message1);
-    when(messageValue.getMessageType()).thenReturn(MessageType.Message1);
+    messageValue.setMessageType(MessageType.Message2);
+    message2Processor.processMessage(messageValue);
+
 
     //verify(xxx);
   }

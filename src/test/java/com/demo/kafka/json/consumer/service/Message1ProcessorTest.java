@@ -8,11 +8,11 @@ import org.mockito.InjectMocks;
 import org.mockito.junit.MockitoJUnitRunner;
 
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.times;
 
 @RunWith(MockitoJUnitRunner.class)
-public class SampleServiceTest {
+public class Message1ProcessorTest {
 
 
 
@@ -20,14 +20,15 @@ public class SampleServiceTest {
   private EventPayloadMapper eventPayloadMapper;
 */
   @InjectMocks
-  private SampleProcessor sampleService;
+  private Message1Processor message1Processor;
 
   @Test
   public void testProcessMessage() {
      final String keyPrefix = "TEST_EVENT:";
     final MessageValue messageValue = new MessageValue();
     messageValue.setMessageType(MessageType.Message1);
-    when(messageValue.getMessageType()).thenReturn(MessageType.Message1);
+    message1Processor.processMessage(messageValue);
+    //verify(messageValue, times(1)).getMessageType();
 
     //verify(xxx);
   }

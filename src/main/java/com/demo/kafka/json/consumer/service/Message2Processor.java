@@ -6,13 +6,13 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service("Message1")
+@Service("Message2")
 @Slf4j
-public class Message1Processor extends MessageProcessorStrategy {
+public class Message2Processor extends MessageProcessorStrategy {
 
 
   @Autowired
-  public Message1Processor() {
+  public Message2Processor() {
 
   }
 
